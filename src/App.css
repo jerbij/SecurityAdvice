@@ -1,0 +1,17 @@
+#wrapper {
+    display: flex;
+    justify-content: center;
+    font-family: Arial,Helvetica,sans-serif;
+    padding-top: 32px;
+}
+
+#page-container {
+    width: 800px;
+}
+
+h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+    text-align: center;
+    font-weight: bold;
+}

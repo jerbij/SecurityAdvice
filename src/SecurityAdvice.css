@@ -1,0 +1,39 @@
+.row-wrapper{
+    display: flex;
+    align-items: center;
+}
+
+.row-wrapper.right {
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+}
+
+.row-wrapper.right .text-container{
+    text-align: right;
+}
+
+.icon-container {
+
+    padding: 3px;
+    width: 100px;
+    height: 100px;
+    flex: 0 0 auto;
+    border-radius: 5px;
+    background: orange;
+
+    font-size: 48px;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-container {
+    padding: 10px;
+    flex: 1 1 auto;
+}
+
+.text-container p {
+    width: 100%;
+    font-size: 20px;
+}
